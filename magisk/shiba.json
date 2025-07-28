@@ -1,7 +1,7 @@
 {
   "version": 2,
   "full": {
-    "location_ota": "https://github.com/grmask/grserver/releases/download/2025071900/shiba-2025071900-2c44050-magisk-v28.1.zip",
-    "location_csig": "https://github.com/grmask/grserver/releases/download/2025071900/shiba-2025071900-2c44050-magisk-v28.1.zip.csig"
+    "location_ota": "https://github.com/grmask/grserver/releases/download/2025072700/shiba-2025072700-2c44050-magisk-v28.1.zip",
+    "location_csig": "https://github.com/grmask/grserver/releases/download/2025072700/shiba-2025072700-2c44050-magisk-v28.1.zip.csig"
   }
 }
