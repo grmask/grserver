@@ -1,7 +1,7 @@
 {
   "version": 2,
   "full": {
-    "location_ota": "https://github.com/grmask/grserver/releases/download/2025081300/shiba-2025081300-96cdfef-rootless.zip",
-    "location_csig": "https://github.com/grmask/grserver/releases/download/2025081300/shiba-2025081300-96cdfef-rootless.zip.csig"
+    "location_ota": "https://github.com/grmask/grserver/releases/download/2025081400/shiba-2025081400-96cdfef-rootless.zip",
+    "location_csig": "https://github.com/grmask/grserver/releases/download/2025081400/shiba-2025081400-96cdfef-rootless.zip.csig"
   }
 }
