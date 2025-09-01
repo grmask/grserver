@@ -62,13 +62,13 @@ NO_COLOR=${NO_COLOR:-''}
 OTA_BASE_URL="https://releases.grapheneos.org"
 
 # renovate: datasource=github-releases packageName=chenxiaolong/avbroot versioning=semver
-AVB_ROOT_VERSION=3.17.2
+AVB_ROOT_VERSION=3.22.0
 # renovate: datasource=github-releases packageName=chenxiaolong/Custota versioning=semver-coerced
-CUSTOTA_VERSION=5.12
+CUSTOTA_VERSION=5.15
 # renovate: datasource=git-refs packageName=https://github.com/chenxiaolong/my-avbroot-setup currentValue=master
 PATCH_PY_COMMIT=16636c3
 # renovate: datasource=docker packageName=python
-PYTHON_VERSION=3.13.5-alpine
+PYTHON_VERSION=3.13.7-alpine
 # renovate: datasource=github-releases packageName=chenxiaolong/OEMUnlockOnBoot versioning=semver-coerced
 OEMUNLOCKONBOOT_VERSION=1.2
 # renovate: datasource=github-releases packageName=chenxiaolong/afsr versioning=semver
@@ -227,7 +227,7 @@ function downloadAndroidDependencies() {
 
   mkdir -p .tmp
   if ! ls ".tmp/magisk-$MAGISK_VERSION.apk" >/dev/null 2>&1 && [[ "${POTENTIAL_ASSETS['magisk']+isset}" ]]; then
-    curl --fail -sLo ".tmp/magisk-$MAGISK_VERSION.apk" "https://github.com/1q23lyc45/KitsuneMagisk/releases/latest/download/app-release.apk"
+    curl --fail -sLo ".tmp/magisk-$MAGISK_VERSION.apk" "https://github.com/pixincreate/Magisk/releases/latest/download/app-release.apk"
   fi
 
   if ! ls ".tmp/$OTA_TARGET.zip" >/dev/null 2>&1; then
